@@ -6,27 +6,30 @@ import { useCartHook } from '@/hooks/cartHook'
 import { Dictionary, Product } from '@/lib/interfaces'
 import { useParams } from 'next/navigation'
 import { useCollection } from '@/hooks/productQueries'
+import { translateProduct } from '@/lib/productUtils'
 
 
-const CartProductList = ({ cartProducts, dictionary }: { cartProducts: Product[], dictionary: Dictionary }) => {
+const CartProductList = ({ cartProducts, dictionary, lang }: { cartProducts: Product[], dictionary: Dictionary, lang: "en" | "ar"}) => {
     const { data: cartItems = [], isLoading: isLoadingProducts, error: productsError } = useCollection('cart', {
         initialData: cartProducts
     })
     const params = useParams()
     const { handleToggleCart } = useCartHook()
 
+    const finalProducts = translateProduct(lang, dictionary, cartItems)
 
 
 
 
-    const totalPrice = cartItems.reduce((curr, item) => curr + item.price, 0)
+
+    const totalPrice = finalProducts.reduce((curr, item) => curr + item.price, 0)
 
     return (
         <div className={classes.container}>
-            {cartItems.length > 0 ?
+            {finalProducts.length > 0 ?
                 <List
                     itemLayout='horizontal'
-                    dataSource={cartItems}
+                    dataSource={finalProducts}
                     renderItem={(item) => (
                         <List.Item
                             className={classes.cartItem}

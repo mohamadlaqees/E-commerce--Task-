@@ -8,12 +8,11 @@ const cart = async ({ params }: { params: { lang: "en" | "ar" } }) => {
     const awaitedParams = await params;
     const cartProducts = await getCollection('cart')
     const dictionary = await getDicitionary(awaitedParams.lang)
-    const finalProducts = translateProduct(awaitedParams.lang, dictionary, cartProducts)
 
 
 
     return (
-        <CartProductList cartProducts={finalProducts} dictionary={dictionary} />
+        <CartProductList cartProducts={cartProducts} dictionary={dictionary} lang={awaitedParams.lang} />
     )
 }
 

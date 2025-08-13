@@ -46,6 +46,5 @@ export interface CardComponentProps {
   onToggleFavorite: (id: number) => void;
   isFavorited: boolean;
   isCartItem: boolean;
+  dictionary: Dictionary;
 }
-
-

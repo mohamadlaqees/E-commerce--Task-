@@ -16,7 +16,7 @@ const page = async ({ params }: { params: { lang: "en" | "ar" } }) => {
 
   return (
     <div className={classes.homeContent}>
-      <ProductsList products={finalProducts} />
+      <ProductsList products={finalProducts} dictionary={dictionary} />
     </div>
   )
 }
