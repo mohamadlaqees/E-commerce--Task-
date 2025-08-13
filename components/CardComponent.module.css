@@ -9,13 +9,17 @@
 
 .card {
     width: 300px;
-    min-height: 488px;
+    height: 510px;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
 
 
 .content {
+    height: 145px;
+}
+
+.description {
     color: gray;
     padding-bottom: 5px;
 }
