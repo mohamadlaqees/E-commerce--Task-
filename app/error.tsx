@@ -13,9 +13,7 @@ const Error = ({ error }: { error: Error & { digest?: string } }) => {
                 <>
                     <Button>
                         <Link href='/'>
-                            <Button>
-                                back to Home
-                            </Button>
+                            back to Home
                         </Link>
                     </Button></>
             }>
