@@ -1,0 +1,51 @@
+.logo {
+    color: white;
+    padding: 0 50px;
+    font-size: large;
+}
+
+
+.content {
+    padding: 0 48px;
+    height: 100%;
+}
+
+.cart {
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+}
+
+.cartIcon {
+    color: white;
+    font-size: x-large;
+    cursor: pointer;
+    color: rgb(82, 82, 250);
+
+}
+
+.shoppingIcon {
+    color: rgb(82, 82, 250);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+@media (max-width: 768px) {
+    .content {
+        padding: 0 20px;
+    }
+
+    .logo {
+        padding: 0 20px 0 0;
+        font-size: medium;
+    }
+
+    .header {
+        padding: 10px;
+    }
+}

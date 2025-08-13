@@ -1,0 +1,52 @@
+{
+  "home": "Home",
+  "favorite": "Favorite",
+  "shopping_cart": "Shopping Cart",
+  "Add to cart": "Add to cart",
+  "Add to favorite": "Add to favorite",
+  "Remove from cart": "Remove from cart",
+  "Remove from favorite": "Remove from favorite",
+  "cartEmpty": "You haven't added any items to your cart yet",
+  "favoriteEmpty": "You haven't added any items to your favorites yet",
+  "favoriteTitle": "Your Favorite Items",
+  "total": "Total",
+  "price": "Price",
+  "products": [
+    {
+      "id": "1",
+      "title": "Ergonomic Mechanical Keyboard",
+      "description": "A split-design ergonomic keyboard with tactile mechanical switches for a comfortable and efficient typing experience. Features customizable RGB backlighting.",
+      "category": "Computer Accessories"
+    },
+    {
+      "id": "2",
+      "title": "4K Ultra-HD Webcam",
+      "description": "Professional 4K webcam with a high-quality sensor for crystal-clear video calls and streaming. Includes AI-powered auto-framing and noise-canceling mics.",
+      "category": "Computer Accessories"
+    },
+    {
+      "id": "3",
+      "title": "Noise-Cancelling Over-Ear Headphones",
+      "description": "Immerse yourself in sound with industry-leading noise cancellation. Features 30-hour battery life, touch controls, and a comfortable, lightweight design.",
+      "category": "Audio"
+    },
+    {
+      "id": "4",
+      "title": "Portable SSD 1TB",
+      "description": "Blazing-fast file transfers with read speeds up to 1,050 MB/s. A compact and durable design makes it perfect for on-the-go professionals and creators.",
+      "category": "Storage"
+    },
+    {
+      "id": "5",
+      "title": "Smart WiFi Power Strip",
+      "description": "Control your devices from anywhere with this smart power strip. Features 4 smart outlets, 4 USB ports, and compatibility with Alexa and Google Assistant.",
+      "category": "Smart Home"
+    },
+    {
+      "id": "6",
+      "title": "32-Inch 4K IPS Monitor",
+      "description": "Experience stunning visuals with this 32-inch 4K UHD monitor. IPS panel technology ensures accurate colors and wide viewing angles. Ideal for creative work and gaming.",
+      "category": "Monitors"
+    }
+  ]
+}

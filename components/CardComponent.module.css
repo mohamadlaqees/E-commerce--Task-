@@ -1,0 +1,62 @@
+.cardImage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.card {
+    width: 300px;
+    min-height: 488px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+
+.content {
+    color: gray;
+    padding-bottom: 5px;
+}
+
+.price {
+    padding-top: 5px;
+    border-top: 1px solid gray;
+    font-size: medium;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.favoritedIcon {
+    color: #ff4d4f
+}
+
+.shoppingIcon {
+    color: rgb(82, 82, 250);
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: 300px;
+    }
+}
+
+@media (min-width:500px) and (max-width: 600px) {
+    .card {
+        width: 400px;
+    }
+}
+
+@media (min-width:600px) and (max-width: 670px) {
+    .card {
+        width: 500px;
+    }
+}
+
+@media (min-width:670px) and (max-width: 882px) {
+    .card {
+        width: 600px;
+    }
+}

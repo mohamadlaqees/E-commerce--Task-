@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+.favoritedIcon {
+    color: #ff4d4f
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+.imageWrapper {
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12pxx rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailsWrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.title {
+    margin-bottom: 16px !important;
+}
+
+.description {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.7;
+}
+
+.priceSection {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.priceLabel {
+    font-size: 18px;
+    color: #888;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: 600;
+    color: #1677ff;
+}
+
+.action {
+    display: flex;
+    gap: 16px;
+}
+
+.actionButton {
+    flex-grow: 1;
+}
+
+.shoppingIcon {
+    color: #5252fa;
+}
+
+@media (max-width:767px) {
+    .action {
+        flex-direction: column;
+    }
+}

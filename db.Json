@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Ergonomic Mechanical Keyboard",
+      "price": 129.99,
+      "description": "A split-design ergonomic keyboard with tactile mechanical switches for a comfortable and efficient typing experience. Features customizable RGB backlighting.",
+      "category": "Computer Accessories",
+      "image": "Keyboard.jpg"
+    },
+    {
+      "id": "2",
+      "title": "4K Ultra-HD Webcam",
+      "price": 159,
+      "description": "Professional 4K webcam with a high-quality sensor for crystal-clear video calls and streaming. Includes AI-powered auto-framing and noise-canceling mics.",
+      "category": "Computer Accessories",
+      "image": "4K-Ultra-HD-Webcam.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Noise-Cancelling Over-Ear Headphones",
+      "price": 249.5,
+      "description": "Immerse yourself in sound with industry-leading noise cancellation. Features 30-hour battery life, touch controls, and a comfortable, lightweight design.",
+      "category": "Audio",
+      "image": "Headphones.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Portable SSD 1TB",
+      "price": 89.99,
+      "description": "Blazing-fast file transfers with read speeds up to 1,050 MB/s. A compact and durable design makes it perfect for on-the-go professionals and creators.",
+      "category": "Storage",
+      "image": "SSD.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Smart WiFi Power Strip",
+      "price": 29.99,
+      "description": "Control your devices from anywhere with this smart power strip. Features 4 smart outlets, 4 USB ports, and compatibility with Alexa and Google Assistant.",
+      "category": "Smart Home",
+      "image": "Power-Strip.jpg"
+    },
+    {
+      "id": "6",
+      "title": "32-Inch 4K IPS Monitor",
+      "price": 449,
+      "description": "Experience stunning visuals with this 32-inch 4K UHD monitor. IPS panel technology ensures accurate colors and wide viewing angles. Ideal for creative work and gaming.",
+      "category": "Monitors",
+      "image": "IPS-Monitor.jpg"
+    }
+  ],
+  "cart": [
+    {
+      "id": "3",
+      "title": "سماعات رأس فوق الأذن بخاصية إلغاء الضوضاء",
+      "price": 249.5,
+      "description": "انغمس في الصوت مع خاصية إلغاء الضوضاء الرائدة في الصناعة. تتميز بعمر بطارية يصل إلى 30 ساعة، وأدوات تحكم باللمس، وتصميم مريح وخفيف الوزن.",
+      "category": "صوتيات",
+      "image": "Headphones.jpg",
+      "addToCartButton": "اضف الى عربة التسوق",
+      "addToFavoriteButton": "اضف الى المفضلة",
+      "removeFromCartButton": "احذف من عربة التسوق",
+      "removeFromFavoriteButton": "احذف من المفضلة"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "1",
+      "title": "لوحة مفاتيح ميكانيكية مريحة",
+      "price": 129.99,
+      "description": "لوحة مفاتيح مريحة بتصميم مقسم ومفاتيح ميكانيكية لمسية لتجربة كتابة مريحة وفعالة. تتميز بإضاءة خلفية قابلة للتخصيص.",
+      "category": "ملحقات الحاسوب",
+      "image": "Keyboard.jpg",
+      "addToCartButton": "اضف الى عربة التسوق",
+      "addToFavoriteButton": "اضف الى المفضلة",
+      "removeFromCartButton": "احذف من عربة التسوق",
+      "removeFromFavoriteButton": "احذف من المفضلة"
+    }
+  ]
+}
